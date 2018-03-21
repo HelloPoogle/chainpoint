@@ -147,3 +147,4 @@ class MerkleProof:
         """MerkleProof to machine readable JSON."""
         json_data = [branch.get_json() for branch in self.branches]
         return json.dumps(json_data)
+    
